@@ -1,5 +1,5 @@
-python port-scanner.py <hostname_or_ip> -p <start-end> -t <num_threads>
+python port-scanner-gpt.py <hostname_or_ip> -p <start-end> -t <num_threads>
 ChatGPT
 
-python port-scanner.py <target_ip_or_hostname> <start_port> <end_port> [-t <num_threads>] [-o <output_filename>]
+python port-scanner-gemini.py <target_ip_or_hostname> -s <start_port> -e <end_port> -m <multithread> 
 Gemini
